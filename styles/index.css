@@ -51,7 +51,14 @@ img {
 }
 
 i {
-    background-color: whitesmoke;
+    font-size: 3em;
+    padding: 8px;
+    border-radius: 2px;
+}
+
+i.fa-linkedin-in {
+    color: whitesmoke;
+    background-color: #0077b5;
 }
 
 nav {
@@ -70,6 +77,15 @@ ul.nav-ul {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+}
+
+.contact-ul {
+    text-align: center;
+    margin-left: -1.9em;
+}
+
+.contact-ul li {
+    margin-top: 4em;
 }
 
 li {
