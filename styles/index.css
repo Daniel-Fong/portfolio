@@ -5,12 +5,21 @@ img.bookmark-app, img.climbing-pic {
     height: auto;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+main {
+    margin-top: 5.5em;
+}
+
 img.bio-pic {
     width: 40%;
     height: auto;
     border-radius: 50%;
     display: inline-block;
-    margin-right: 5%;
     margin-bottom: -2em;
 }
 
@@ -26,6 +35,7 @@ img.bio-pic {
 .puzzles {
     display: inline-block;
     font-size: 1.7em;
+    padding-left: 1em;
 }
 
 h1, h2, h3 {
@@ -44,10 +54,43 @@ p {
     line-height: 1.5em;
 }
 
+.intro {
+    border-bottom-style: solid;
+    color: whitesmoke;
+}
+
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.tech-used {
+    margin-top: 0;
+    padding-left: 1em;
+}
+
+.tech-icons {
+    font-size: 1em;
+}
+
+.fa-html5 {
+    color: rgb(255, 102, 0);
+}
+
+.fa-js {
+    color: rgb(255, 230, 0);
+}
+
+.fa-css3-alt {
+    color: rgb(0, 140, 255);
+}
+
+img.jQuery {
+    display: inline-block;
+    background-color: whitesmoke;
+    height: .82em;
+    margin-left: .5em;
 }
 
 i {
@@ -62,9 +105,9 @@ i.fa-linkedin-in {
 }
 
 nav {
-    background-color: whitesmoke;
     margin-left: -1em;
     margin-right: -1em;
+    background-color: whitesmoke;
 }
 
 ul.nav-ul {
