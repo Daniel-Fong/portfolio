@@ -1,0 +1,78 @@
+* {box-sizing: border-box;}
+
+img.bookmark-app, img.climbing-pic {
+    width: 90%;
+    height: auto;
+}
+
+img.bio-pic {
+    width: 40%;
+    height: auto;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5%;
+    margin-bottom: -2em;
+}
+
+.technical-skills-ul, .education-ul {
+    color: whitesmoke;
+    margin-top: -1em;
+}
+
+.name {
+    text-align: center;
+}
+
+.puzzles {
+    display: inline-block;
+    font-size: 1.7em;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+body {
+    color: white;
+    background-color: black;
+    margin: 0;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+i {
+    background-color: whitesmoke;
+}
+
+nav {
+    background-color: whitesmoke;
+    margin-left: -1em;
+    margin-right: -1em;
+}
+
+ul.nav-ul {
+    padding-left: 0;
+    margin-left: 0%;
+    font-size: 1.1em;
+    color: black;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+li {
+    margin-left: 0%;
+    list-style: none;
+}
