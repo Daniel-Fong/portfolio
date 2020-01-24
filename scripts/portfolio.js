@@ -80,7 +80,7 @@ const handleProjectsClick = function() {
                     <p class='github-icon-description'>Github</p>
                 </li>
                 <li>
-                    <a class='plane-icon' href='' target='blank'>
+                    <a class='plane-icon' href='mailto:daniel.fong.mv@gmail.com' target='blank'>
                     <i class="fas fa-paper-plane"></i></a>
                     <p class='paper-plane-icon-description'>Email</p>
                 </li>
