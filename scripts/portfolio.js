@@ -39,7 +39,9 @@ const handleProjectsClick = function() {
     </section>
     <h2>Projects</h2>
         <h3>Bookmark Bungalow</h3>
+            <div class='img-cover'>
             <img class="bookmark-app" src='img/bookmark-capture.PNG'/>
+            </div>
             <p class='tech-used'><i class="fab fa-html5 tech-icons"></i><i class="fab fa-js tech-icons"></i><i class="fab fa-css3-alt tech-icons"></i><img class='jQuery' src="img/jQuery.png"></p>
             <p>Bring a slice of the tropics into your life with an app designed to save your favorite websites with a description, rating and link to the site itself. Bookmarks can be filtered by rating. </p>
             <section class='button-section'>
