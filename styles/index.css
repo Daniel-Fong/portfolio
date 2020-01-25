@@ -1,6 +1,6 @@
 * {box-sizing: border-box;}
 
-img.bookmark-app, img.climbing-pic {
+img.bookmark-app, img.climbing-pic, img.quiz-app {
     width: 90%;
     height: auto;
 }
@@ -19,7 +19,7 @@ main {
 
 .skills {
     display: inline-block;
-    width: 50%;
+    width: 45%;
     margin-left: -1.3em;
     border-right-style: solid;
     border-color: whitesmoke;
@@ -34,7 +34,7 @@ main {
     display: inline-block;
     width: 50%;
     font-size: 1.1em;
-    padding-left: 1em;
+    padding-left: 7%;
     margin-top: -2em;
 }
 
@@ -60,10 +60,10 @@ img.bio-pic {
 
 .puzzles {
     display: inline-flex;
-    flex-grow: initial;
-    font-size: 1.65em;
+    font-size: 1.4em;
     padding-left: 7%;
     text-shadow: .3em .3em rgba(128, 128, 128, 0.486);
+    margin-top: -30em;
 }
 
 h1 {
@@ -146,15 +146,27 @@ nav {
     font-family: 'Lexend Exa', sans-serif;
 }
 
-.button-section span {
+section.button-section {
+    width: 100%;
     display: inline-flex;
     justify-content: space-evenly;
+    margin-bottom: 3em;
 }
 
 button {
     border-radius: 3px;
     height: 3em;
     cursor: pointer;
+    box-shadow: 1px 1px 1px grey;
+    transition: color .5s;
+    font-family: 'Lexend Exa', sans-serif;
+    transition-duration: .5s;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+    transform: translate(.3em, -.3em);
 }
 
 ul.nav-ul {
@@ -273,12 +285,17 @@ a:visited {
     }
     .puzzles {
         margin-left: 10%;
+        vertical-align: 50%;
+    }
+    .skills {
+        margin-top: 1em;
     }
 }
 
 @media screen and (min-width: 900px) {
     .skills {
         text-align: center;
+        margin-top: 0;
     }
     .puzzles {
         margin-left: 10%;
@@ -316,8 +333,9 @@ a:visited {
         height: 40%;
         border-right-style: solid;
         border-color: whitesmoke;
-        margin-top: 18%;
+        margin-top: 8%;
         border-bottom-style: none;
+        padding-right: 2%;
     }
     img.bookmark-app {
         width: 90%;

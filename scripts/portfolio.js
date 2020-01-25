@@ -45,18 +45,18 @@ const handleProjectsClick = function() {
         <h3>Bookmark Bungalow</h3>
             <img class="bookmark-app" src='img/bookmark-capture.PNG'/>
             <p class='tech-used'><i class="fab fa-html5 tech-icons"></i><i class="fab fa-js tech-icons"></i><i class="fab fa-css3-alt tech-icons"></i><img class='jQuery' src="img/jQuery.png"></p>
-            <p>Bring a slice of the tropics into your life with an app designed to save your favorite websites with a description, rating and link to the site itself. Bookmarks can be filtered by rating. </p>
+            <p>Bring a slice of the tropics into your life with an app designed to save your favorite websites with a description, rating and link to the site itself. Bookmarks can be filtered by rating. Designed to fulfill a Thinkful curriculum requirement.</p>
             <section class='button-section'>
                 <a class='live-app-button' target='blank' href='https://thinkful-ei-leopard.github.io/daniel-bookmarks-app'><button type='button'>Live App</button></a>
                 <a class='code-button' target='blank' href='https://github.com/thinkful-ei-leopard/daniel-bookmarks-app'><button>Code</button></a>
             </section>
-        <h3>Bookmark Bungalow</h3>
-            <img class="bookmark-app" src='img/bookmark-capture.PNG'/>
+        <h3>Battle Royale Quiz</h3>
+            <img class="quiz-app" src='img/quiz-app.PNG'/>
             <p class='tech-used'><i class="fab fa-html5 tech-icons"></i><i class="fab fa-js tech-icons"></i><i class="fab fa-css3-alt tech-icons"></i><img class='jQuery' src="img/jQuery.png"></p>
-            <p>Bring a slice of the tropics into your life with an app designed to save your favorite websites with a description, rating and link to the site itself. Bookmarks can be filtered by rating. </p>
+            <p>Have you ever wondered if you have spent too much time playing games that are extremely hard to win? This quiz will answer that question as you test the depth of your knowledge of Battle Royale games ranging from the most prominent to the obscure. Designed to fulfill a Thinkful curriculum requirement.</p>
             <section class='button-section'>
-                <a class='live-app-button' target='blank' href='https://thinkful-ei-leopard.github.io/daniel-bookmarks-app'><button type='button'>Live App</button></a>
-                <a class='code-button' target='blank' href='https://github.com/thinkful-ei-leopard/daniel-bookmarks-app'><button>Code</button></a>
+                <a class='live-app-button' target='blank' href='https://daniel-fong.github.io/daniel-ben-quizapp/'><button type='button'>Live App</button></a>
+                <a class='code-button' target='blank' href='https://github.com/Daniel-Fong/daniel-ben-quizapp'><button>Code</button></a>
             </section>
     </div>`
             render(projectsView);
