@@ -5,22 +5,24 @@ const handleAboutMeClick = function() {
         let aboutMeView = `
         <h1>About Me</h1> 
         <h2 class='name'>Daniel Fong</h2>
-            <img class="bio-pic" src='img/bio-pic.jpg'/>
-            <p class='puzzles'>I love puzzles.</p>
+        <div class='img-cover bio-cover'>
+            <img class="bio-pic" src='img/bio-pic.jpg'/></div>
+            <p class='puzzles'>Lorem Ipsum</p>
             <section class='skills'>
                 <h3>Technical Skills</h3>
                 <ul class='technical-skills-ul'>
                     <li>Frontend: <p><i class="fab fa-html5 tech-icons"></i><i class="fab fa-js tech-icons"></i><i class="fab fa-css3-alt tech-icons"></i><img class='jQuery' src="img/jQuery.png"></p></li>
                 </ul>
             </section>
-                <p class='first-paragraph-aboutMe'>Which retrospectively is why I was <strong>drawn</strong> to <strong>web development</strong>;</p>
+                <p class='first-paragraph-aboutMe'>Lorem Ipsum Lorem Ipsum Lorem Ipsum <strong>drawn</strong> to <strong>web development</strong>;</p>
             <section class='body-text'>
-                <p>the process of <strong>unraveling ideas</strong> and manifesting them into a coherent <strong>experience</strong> compels me to continue <strong>learning</strong> on a daily basis.</p>
-                <p>I have often found that learning is <strong>enhanced</strong> by <strong>others</strong>, and I enjoy working with those who share my <strong>motivation</strong> for continuous improvement and learning while bringing a different <strong>perspective</strong> to the table.</p>
-                <p>I am goal and <strong>outcome oriented</strong>, a <strong>diligent</strong> worker in any area I apply myself to, and a thoughtful <strong>problem solver</strong>.</p>
-                    <img class='climbing-pic' src='img/free-range.jpg'/>
-                <p>Being based in Denver, CO makes it convenient to put myself to the test mentally and physically. Much of my prior work experience has been in the outdoor industry, and if I’m not honing my skills behind a computer screen or sleeping, there’s a 99% chance I’m out with friends working my way through physical problems rock climbing. </p>
-                <p>I am equally passionate about the outdoors and web development, and have been excited to witness the rapidly expanding junction between the two.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                <p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+                <p>veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+                <div class='img-cover'>    
+                <img class='climbing-pic' src='img/free-range.jpg'/></div>
+                <p>commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat </p>
+                <p>cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </section>
             <h3>Education</h3>
                 <ul class='education-ul'>
@@ -37,23 +39,26 @@ const handleProjectsClick = function() {
 <section class='intro'>
 <h1>Daniel Fong</h1>
     <p>A <strong>Denver</strong> based frontend <strong>web developer</strong></p> 
-        <p>Currently honing skills at <strong>Thinkful</strong> to create <strong>accessible</strong> and attractive <strong>applications</strong> that captivate.
+        <p>cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
     </section>
     <div class='projects-div'>
     <h2>Projects</h2>
         <h3>Bookmark Bungalow</h3>
+            <div class='img-cover'>
             <img class="bookmark-app" src='img/bookmark-capture.PNG'/>
+            </div>
             <p class='tech-used'><i class="fab fa-html5 tech-icons"></i><i class="fab fa-js tech-icons"></i><i class="fab fa-css3-alt tech-icons"></i><img class='jQuery' src="img/jQuery.png"></p>
-            <p>Bring a slice of the tropics into your life with an app designed to save your favorite websites with a description, rating and link to the site itself. Bookmarks can be filtered by rating. </p>
+            <p>cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.. </p>
             <section class='button-section'>
                 <a class='live-app-button' target='blank' href='https://thinkful-ei-leopard.github.io/daniel-bookmarks-app'><button type='button'>Live App</button></a>
                 <a class='code-button' target='blank' href='https://github.com/thinkful-ei-leopard/daniel-bookmarks-app'><button>Code</button></a>
             </section>
         <h3>Bookmark Bungalow</h3>
-            <img class="bookmark-app" src='img/bookmark-capture.PNG'/>
+        <div class='img-cover'>
+            <img class="bookmark-app" src='img/bookmark-capture.PNG'/></div>
             <p class='tech-used'><i class="fab fa-html5 tech-icons"></i><i class="fab fa-js tech-icons"></i><i class="fab fa-css3-alt tech-icons"></i><img class='jQuery' src="img/jQuery.png"></p>
-            <p>Bring a slice of the tropics into your life with an app designed to save your favorite websites with a description, rating and link to the site itself. Bookmarks can be filtered by rating. </p>
+            <p>cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
             <section class='button-section'>
                 <a class='live-app-button' target='blank' href='https://thinkful-ei-leopard.github.io/daniel-bookmarks-app'><button type='button'>Live App</button></a>
                 <a class='code-button' target='blank' href='https://github.com/thinkful-ei-leopard/daniel-bookmarks-app'><button>Code</button></a>

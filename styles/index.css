@@ -38,6 +38,14 @@ main {
     margin-top: -2em;
 }
 
+.bio-cover {
+    width: 40%;
+    height: 5em;
+    border-radius: 50%;
+    margin-bottom: 3em;
+    display: inline-block;
+}
+
 img.bio-pic {
     width: 40%;
     height: auto;
@@ -83,6 +91,10 @@ body {
     margin-right: 1em;
 }
 
+.img-cover {
+    background-color: white;
+}
+
 p {
     line-height: 1.5em;
 }
@@ -97,6 +109,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
+    opacity: 0;
 }
 
 .tech-used {
@@ -274,6 +287,9 @@ a:visited {
     .puzzles {
         margin-left: 10%;
     }
+    .bio-cover {
+        height: 10em;
+    }
 }
 
 @media screen and (min-width: 900px) {
@@ -340,5 +356,8 @@ a:visited {
     }
     .projects-div h3 {
         font-size: 2em;
+    }
+    .bio-cover {
+        height: 20em;
     }
 }
