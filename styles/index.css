@@ -222,15 +222,19 @@ li {
 }
 
 .contact-ul .linked-in-icon:hover {
-    transform: translate(.15em, -.15em);
+    transform: translate(.25em, -.25em);
 }
 
 .contact-ul .github-icon:hover {
     transform: translate(.3em, -.3em);
 }
 
+.contact-ul .plane-icon:hover {
+    transform: translate(.5em, -.5em);
+}
+
 .plane-icon {
-    transition-duration: 5s;
+    transition-duration: 1s;
     display: block;
     width: 7em;
     height: 6em;
@@ -272,10 +276,6 @@ a:visited {
 .education-ul {
     margin-bottom: 5em;
     line-height: 1.5em;
-}
-
-.plane-icon:hover {
-    transform: translate(20em, -28em);
 }
 
 @media screen and (min-width: 500px) {
