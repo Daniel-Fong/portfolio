@@ -44,7 +44,7 @@ const handleProjectsClick = function() {
     <h2>Projects</h2>
         <h3>Bookmark Bungalow</h3>
             <img class="bookmark-app" alt='Bookmark bungalow screen capture' src='img/bookmark-capture.PNG'/>
-            <p class='tech-used'><i class="fab fa-html5 tech-icons"></i><i class="fab fa-js tech-icons"></i><i class="fab fa-css3-alt tech-icons"></i><img class='jQuery' src="img/jQuery.png"></p>
+            <p class='tech-used'><i class="fab fa-html5 tech-icons"></i><i class="fab fa-js tech-icons"></i><i class="fab fa-css3-alt tech-icons"></i><img class='jQuery' alt='jQuery icon' src="img/jQuery.png"></p>
             <p>Bring a slice of the tropics into your life with an app designed to save your favorite websites with a description, rating and link to the site itself. Bookmarks can be filtered by rating. Designed to fulfill a Thinkful curriculum requirement.</p>
             <section class='button-section'>
                 <a class='live-app-button' target='blank' href='https://thinkful-ei-leopard.github.io/daniel-bookmarks-app'><span>Live App</span></a>
@@ -52,7 +52,7 @@ const handleProjectsClick = function() {
             </section>
         <h3>Battle Royale Quiz</h3>
             <img class="quiz-app" alt='Battle royale quiz app screen capture' src='img/quiz-app.PNG'/>
-            <p class='tech-used'><i class="fab fa-html5 tech-icons"></i><i class="fab fa-js tech-icons"></i><i class="fab fa-css3-alt tech-icons"></i><img class='jQuery' src="img/jQuery.png"></p>
+            <p class='tech-used'><i class="fab fa-html5 tech-icons"></i><i class="fab fa-js tech-icons"></i><i class="fab fa-css3-alt tech-icons"></i><img class='jQuery' alt='jQuery icon' src="img/jQuery.png"></p>
             <p>Have you ever wondered if you have spent too much time playing games that are extremely hard to win? This quiz will answer that question as you test the depth of your knowledge of Battle Royale games ranging from the most prominent to the obscure. Designed to fulfill a Thinkful curriculum requirement.</p>
             <section class='button-section'>
                 <a class='live-app-button' target='blank' href='https://daniel-fong.github.io/daniel-ben-quizapp/'><span>Live App</span></a>
