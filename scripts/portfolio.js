@@ -10,7 +10,8 @@ const handleAboutMeClick = function() {
             <section class='skills'>
                 <h3>Technical Skills</h3>
                 <ul class='technical-skills-ul'>
-                    <li>Frontend: <p><i class="fab fa-html5 tech-icons"></i><i class="fab fa-js tech-icons"></i><i class="fab fa-css3-alt tech-icons"></i><img class='jQuery' alt='jQuery icon' src="img/jQuery.png"></p></li>
+                    <li>Frontend: <p><i class="fab fa-html5 tech-icons"></i><i class="fab fa-js tech-icons"></i><i class="fab fa-css3-alt tech-icons"></i><img class='jQuery' alt='jQuery icon' src="img/jQuery.png"><i class="fab fa-sass tech-icons" title='Sass (SCSS)' alt='Sass'></i><span class="iconify tech-icons" data-icon="logos:cypress" data-inline="false"></span></p></li>
+                    <li>Backend: <p><i class="fab fa-node-js tech-icons" title='Node.js'></i><span class="iconify knex tech-icons" data-icon="logos-knex" data-inline="false" title='knex.js'></span><span class="iconify postgres tech-icons" data-icon="logos:postgresql" data-inline="false" title='postgreSQL'></span><span class="iconify tech-icons" data-icon="logos-mocha" data-inline="false"></span><span class="iconify tech-icons" data-icon="logos:chai" data-inline="false"></span></p></li>
                 </ul>
             </section>
                 <p class='first-paragraph-aboutMe'>Which retrospectively is why I was <strong>drawn</strong> to <strong>web development</strong>;</p>
@@ -42,9 +43,33 @@ const handleProjectsClick = function() {
     </section>
     <div class='projects-div'>
     <h2>Projects</h2>
+        <h3>DorianKrausz.com</h3>
+            <img class="dorian-site" alt='Screen capture of Dorian's website' src='img/dorian-site.PNG'/>
+            <p class='tech-used'><i class="fab fa-react tech-icons" title='React.js'></i><i class="fab fa-js tech-icons" title='Javascript'></i><i class="fab fa-css3-alt tech-icons" title ='CSS3'></i></p>
+            <p>A frontend portfolio project completed in one week, with minor revisions since then. Showcases an artwork collection and the artist.</p>
+            <section class='button-section'>
+                <a class='live-app-button' target='blank' href='https://doriankrausz.com/'><span>Live App</span></a>
+                <a class='code-button' target='blank' href='https://github.com/Daniel-Fong/dorian-website'><span>Code</span></a>
+            </section>
+        <h3>Snapshot</h3>
+            <img class="dorian-site" alt='Snapshot application screen grab' src='img/Snapshot.PNG'/>
+            <p class='tech-used'><i class="fab fa-react tech-icons" title='React.js'></i><i class="fab fa-css3-alt tech-icons" title='CSS3'></i><i class="fab fa-node-js tech-icons" title='Node.js'></i><span class="iconify knex tech-icons" data-icon="logos-knex" data-inline="false" title='knex.js'></span><span class="iconify postgres tech-icons" data-icon="logos:postgresql" data-inline="false" title='postgreSQL'></span></p>
+            <p>A full-stack solo application created in two weeks. Allows users to add players, games, and scores to keep track of physical (e.g. board and card) games.</p>
+            <section class='button-section'>
+                <a class='live-app-button' target='blank' href='https://snapshot-delta.now.sh/'><span>Live App</span></a>
+                <a class='code-button' target='blank' href='https://github.com/Daniel-Fong/first-capstone-client'><span>Code</span></a>
+            </section>
+        <h3>Sermo</h3>
+            <img class="sermo" alt='Sermo application screen grab' src='img/Sermo.PNG'/>
+            <p class='tech-used'><i class="fab fa-react tech-icons" title='React.js'></i><i class="fab fa-css3-alt tech-icons" title='CSS3'></i><i class="fab fa-node-js tech-icons" title='Node.js'></i><span class="iconify knex tech-icons" data-icon="logos-knex" data-inline="false" title='knex.js'></span><span class="iconify postgres tech-icons" data-icon="logos:postgresql" data-inline="false" title='postgreSQL'></span></p>
+            <p>A full stack application completed with a pair in one week. Utilizes a spaced repetition algorithm to manipulate a linked list of words to teach the user Mandarin.</p>
+            <section class='button-section'>
+                <a class='live-app-button' target='blank' href='https://sermo.now.sh/register/'><span>Live App</span></a>
+                <a class='code-button' target='blank' href='https://github.com/thinkful-ei-leopard/spaced-repetition-client-daniel-hsin'><span>Code</span></a>
+            </section>
         <h3>Bookmark Bungalow</h3>
             <img class="bookmark-app" alt='Bookmark bungalow screen capture' src='img/bookmark-capture.PNG'/>
-            <p class='tech-used'><i class="fab fa-html5 tech-icons"></i><i class="fab fa-js tech-icons"></i><i class="fab fa-css3-alt tech-icons"></i><img class='jQuery' alt='jQuery icon' src="img/jQuery.png"></p>
+            <p class='tech-used'><i class="fab fa-html5 tech-icons" title='HTML5'></i><i class="fab fa-js tech-icons" title='Javascript'></i><i class="fab fa-css3-alt tech-icons" title='CSS3'></i><img class='jQuery' alt='jQuery icon' src="img/jQuery.png" title='jQuery'></p>
             <p>Bring a slice of the tropics into your life with an app designed to save your favorite websites with a description, rating and link to the site itself. Bookmarks can be filtered by rating. Designed to fulfill a Thinkful curriculum requirement.</p>
             <section class='button-section'>
                 <a class='live-app-button' target='blank' href='https://thinkful-ei-leopard.github.io/daniel-bookmarks-app'><span>Live App</span></a>
@@ -52,7 +77,7 @@ const handleProjectsClick = function() {
             </section>
         <h3>Battle Royale Quiz</h3>
             <img class="quiz-app" alt='Battle royale quiz app screen capture' src='img/quiz-app.PNG'/>
-            <p class='tech-used'><i class="fab fa-html5 tech-icons"></i><i class="fab fa-js tech-icons"></i><i class="fab fa-css3-alt tech-icons"></i><img class='jQuery' alt='jQuery icon' src="img/jQuery.png"></p>
+            <p class='tech-used'><i class="fab fa-html5 tech-icons" title='HTML5'></i><i class="fab fa-js tech-icons" title='Javascript'></i><i class="fab fa-css3-alt tech-icons" title='CSS3'></i><img class='jQuery' alt='jQuery icon' src="img/jQuery.png" title='jQuery'></p>
             <p>Have you ever wondered if you have spent too much time playing games that are extremely hard to win? This quiz will answer that question as you test the depth of your knowledge of Battle Royale games ranging from the most prominent to the obscure. Designed to fulfill a Thinkful curriculum requirement.</p>
             <section class='button-section'>
                 <a class='live-app-button' target='blank' href='https://daniel-fong.github.io/daniel-ben-quizapp/'><span>Live App</span></a>
@@ -70,7 +95,7 @@ const handleProjectsClick = function() {
             <h2 class='name'>Daniel Fong</h2> 
             <ul class='contact-ul'>
                 <li>
-                    <a class='linked-in-icon' href='https://www.linkedin.com/in/daniel-fong-4a543119b/' target='blank'>
+                    <a class='linked-in-icon' href='https://www.linkedin.com/in/daniel-ryan-fong/' target='blank'>
                     <i class="fab fa-linkedin-in"></i></a>
                     <p class='linked-in-icon-description'>LinkedIn</p>
                 </li>
