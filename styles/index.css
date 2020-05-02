@@ -178,13 +178,13 @@ span {
     font-family: 'Lexend Exa', sans-serif;
     transition-duration: .5s;
     background-color: whitesmoke;
-    color: black;
+    color: rgb(41, 41, 41);
     padding: 1em;
 }
 
 span:hover {
     color: white;
-    background-color: black;
+    background-color: rgb(41, 41, 41);
     transform: translate(.3em, -.3em);
 }
 
@@ -192,7 +192,7 @@ ul.nav-ul {
     padding-left: 0;
     margin-left: 0%;
     font-size: 1.1em;
-    color: black;
+    color: rgb(41, 41, 41);
     width: 100%;
     display: inline-flex;
     flex-direction: row;
@@ -208,7 +208,7 @@ ul.nav-ul {
 
 .nav-ul li:hover {
     cursor: pointer;
-    background-color: black;
+    background-color: rgb(41, 41, 41);
     color: white;
 
 }
