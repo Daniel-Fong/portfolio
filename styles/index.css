@@ -1,6 +1,6 @@
 * {box-sizing: border-box;}
 
-img.bookmark-app, img.climbing-pic, img.quiz-app, img.dorian-site, img.sermo {
+img.bookmark-app, img.climbing-pic, img.quiz-app, img.dorian-site, img.sermo, img.cup-of-sugar {
     width: 90%;
     height: auto;
 }
@@ -115,6 +115,7 @@ img {
 
 .fa-sass {
     color: rgb(146, 2, 110);
+    margin-right: -4px;
 }
 
 .fa-js {

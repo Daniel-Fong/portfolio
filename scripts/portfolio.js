@@ -43,6 +43,15 @@ const handleProjectsClick = function() {
     </section>
     <div class='projects-div'>
     <h2>Projects</h2>
+    <h3>Cup of Sugar</h3>
+        <img class="cup-of-sugar" alt='Screen capture of Cup of Sugar application' src='img/Cup-of-Sugar.PNG'/>
+        <p class='tech-used'><i class="fab fa-react tech-icons" title='React.js'></i><i class="fab fa-js tech-icons" title='Javascript'></i><i class="fab fa-node-js tech-icons" title='Node.js'></i><span class="iconify knex tech-icons" data-icon="logos-knex" data-inline="false" title='knex.js'></span><span class="iconify postgres tech-icons" data-icon="logos:postgresql" data-inline="false" title='postgreSQL'></span><span class="iconify tech-icons" data-icon="logos-mocha" data-inline="false"></span><span class="iconify tech-icons" data-icon="logos:chai" data-inline="false"></span><i class="fab fa-sass tech-icons cup-sass-icon" title='Sass (SCSS)' alt='Sass'></i></p>
+        <p>A Full Stack project completed as part of a team of 3. Cup of Sugar is a localized, community-oriented application that aims to bring neighboars closer together by fostering connections based on mutual aid. Users can post offers and requests to a public bulletin board, where other users can respond by post comments or messaging other users privately.</p>
+        <section class='button-section'>
+            <a class='live-app-button' target='blank' href='https://cup-of-sugar.now.sh/'><span>Live App</span></a>
+            <a class='code-button' target='blank' href='https://github.com/thinkful-ei-leopard/cup-of-sugar-client'><span>Code</span></a>
+        </section>
+    <h3>DorianKrausz.com</h3>
         <h3>DorianKrausz.com</h3>
             <img class="dorian-site" alt='Screen capture of Dorian's website' src='img/dorian-site.PNG'/>
             <p class='tech-used'><i class="fab fa-react tech-icons" title='React.js'></i><i class="fab fa-js tech-icons" title='Javascript'></i><i class="fab fa-css3-alt tech-icons" title ='CSS3'></i></p>
@@ -74,14 +83,6 @@ const handleProjectsClick = function() {
             <section class='button-section'>
                 <a class='live-app-button' target='blank' href='https://thinkful-ei-leopard.github.io/daniel-bookmarks-app'><span>Live App</span></a>
                 <a class='code-button' target='blank' href='https://github.com/thinkful-ei-leopard/daniel-bookmarks-app'><span>Code</span></a>
-            </section>
-        <h3>Battle Royale Quiz</h3>
-            <img class="quiz-app" alt='Battle royale quiz app screen capture' src='img/quiz-app.PNG'/>
-            <p class='tech-used'><i class="fab fa-html5 tech-icons" title='HTML5'></i><i class="fab fa-js tech-icons" title='Javascript'></i><i class="fab fa-css3-alt tech-icons" title='CSS3'></i><img class='jQuery' alt='jQuery icon' src="img/jQuery.png" title='jQuery'></p>
-            <p>Have you ever wondered if you have spent too much time playing games that are extremely hard to win? This quiz will answer that question as you test the depth of your knowledge of Battle Royale games ranging from the most prominent to the obscure. Designed to fulfill a Thinkful curriculum requirement.</p>
-            <section class='button-section'>
-                <a class='live-app-button' target='blank' href='https://daniel-fong.github.io/daniel-ben-quizapp/'><span>Live App</span></a>
-                <a class='code-button' target='blank' href='https://github.com/Daniel-Fong/daniel-ben-quizapp'><span>Code</span></a>
             </section>
     </div>`
             render(projectsView);
