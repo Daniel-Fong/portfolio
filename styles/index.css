@@ -134,6 +134,7 @@ img {
     margin-bottom: -2px;
     margin-left: 2px;
     margin-right: 6px;
+    z-index: -1;
 }
 
 img.jQuery {
@@ -161,6 +162,7 @@ nav {
     margin-right: -1em;
     background-color: whitesmoke;
     font-family: 'Lexend Exa', sans-serif;
+    z-index: 1000;
 }
 
 section.button-section {
@@ -192,7 +194,7 @@ span:hover {
 ul.nav-ul {
     padding-left: 0;
     margin-left: 0%;
-    font-size: 1.1em;
+    font-size: .9em;
     color: rgb(41, 41, 41);
     width: 100%;
     display: inline-flex;
@@ -296,6 +298,12 @@ a:visited {
 .education-ul {
     margin-bottom: 5em;
     line-height: 1.5em;
+}
+
+@media screen and (min-width: 375px) {
+    ul.nav-ul {
+        font-size: 1.1em;
+    }
 }
 
 @media screen and (min-width: 500px) {
