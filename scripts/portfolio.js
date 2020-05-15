@@ -10,7 +10,7 @@ const handleAboutMeClick = function() {
             <section class='skills'>
                 <h3>Technical Skills</h3>
                 <ul class='technical-skills-ul'>
-                    <li>Frontend: <p><i class="fab fa-html5 tech-icons"></i><i class="fab fa-js tech-icons"></i><i class="fab fa-css3-alt tech-icons"></i><img class='jQuery' alt='jQuery icon' src="img/jQuery.png"><i class="fab fa-sass tech-icons" title='Sass (SCSS)' alt='Sass'></i><span class="iconify tech-icons" data-icon="logos:cypress" title='Cypress' data-inline="false"></span></p></li>
+                    <li>Frontend: <p><i class="fab fa-html5 tech-icons"></i><i class="fab fa-js tech-icons"></i><i class="fab fa-css3-alt tech-icons"></i><img class='jQuery' alt='jQuery icon' src="img/jQuery.png"><i class="fab fa-sass tech-icons" title='Sass (SCSS)'></i><span class="iconify tech-icons" data-icon="logos:cypress" title='Cypress' data-inline="false"></span></p></li>
                     <li>Backend: <p><i class="fab fa-node-js tech-icons" title='Node.js'></i><span class="iconify knex tech-icons" data-icon="logos-knex" data-inline="false" title='knex.js'></span><span class="iconify postgres tech-icons" data-icon="logos:postgresql" data-inline="false" title='postgreSQL'></span><span class="iconify tech-icons" data-icon="logos-mocha" title='Mocha' data-inline="false"></span><span class="iconify tech-icons" data-icon="logos:chai" title='Chai' data-inline="false"></span></p></li>
                 </ul>
             </section>
@@ -45,8 +45,8 @@ const handleProjectsClick = function() {
     <h2>Projects</h2>
         <h3>Cup of Sugar</h3>
         <img class="cup-of-sugar" alt='Screen capture of Cup of Sugar application' src='img/Cup-of-Sugar.PNG'/>
-        <p class='tech-used'><i class="fab fa-react tech-icons" title='React.js'></i><i class="fab  fa-js tech-icons" title='Javascript'></i><i class="fab fa-node-js tech-icons" title='Node.js'></i><span class="iconify knex tech-icons" data-icon="logos-knex" data-inline="false" title='knex.js'></span><span class="iconify postgres tech-icons" data-icon="logos:postgresql" data-inline="false" title='postgreSQL'></span><span class="iconify tech-icons" data-icon="logos-mocha" title='Mocha' data-inline="false"></ span><span class="iconify tech-icons" data-icon="logos:chai" title='Chai' data-inline="false"></span><i class="fab fa-sass tech-icons cup-sass-icon" title='Sass (SCSS)' alt='Sass'></i></p>
-        <p>A full stack project completed as part of a team of 3. Cup of Sugar is a localized, community-oriented application that aims to bring neighboars closer together by fostering connections based on mutual aid. Users can post offers and requests to a public bulletin board, where other users can respond by post comments or messaging other users privately.</   p>
+        <p class='tech-used'><i class="fab fa-react tech-icons" title='React.js'></i><i class="fab  fa-js tech-icons" title='Javascript'></i><i class="fab fa-node-js tech-icons" title='Node.js'></i><span class="iconify knex tech-icons" data-icon="logos-knex" data-inline="false" title='knex.js'></span><span class="iconify postgres tech-icons" data-icon="logos:postgresql" data-inline="false" title='postgreSQL'></span><span class="iconify tech-icons" data-icon="logos-mocha" title='Mocha' data-inline="false"></ span><span class="iconify tech-icons" data-icon="logos:chai" title='Chai' data-inline="false"></span><i class="fab fa-sass tech-icons cup-sass-icon" title='Sass (SCSS)'></i></p>
+        <p>A full stack project completed as part of a team of 3. Cup of Sugar is a localized, community-oriented application that aims to bring neighbors closer together by fostering connections based on mutual aid. Users can post offers and requests to a public bulletin board, where other users can respond by post comments or messaging other users privately.</   p>
         <section class='button-section'>
             <a class='live-app-button' target='blank' href='https://cup-of-sugar.now.sh/'><span class='button-span'>Live App</span></a>
             <a class='code-button' target='blank' href='https://github.com/thinkful-ei-leopard/ cup-of-sugar-client'><span class='button-span'>Code</span></a>
@@ -91,7 +91,7 @@ const handleProjectsClick = function() {
     const handleContactClick = function() {
         $('.contact-nav').click(function() {
             let contactView =`
-            <h1>Contact</h1>
+            <h1 class='contact-h1'>Contact</h1>
             <h2 class='name'>Daniel Fong</h2> 
             <ul class='contact-ul'>
                 <li>
