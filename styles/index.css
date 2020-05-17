@@ -131,11 +131,12 @@ img {
     color: rgb(81, 189, 216);
 }
 
-.iconify {
+.icons {
     margin-bottom: -2px;
     margin-left: 2px;
     margin-right: 6px;
-    z-index: -1;
+    display: inline-block;
+    height: 24px;
 }
 
 img.jQuery {
