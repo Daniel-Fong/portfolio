@@ -38,7 +38,7 @@ const handleProjectsClick = function() {
 <section class='intro'>
     <h1>Daniel Fong</h1>
         <p>A <strong>Denver</strong> based frontend <strong>web developer</strong></p> 
-            <p>Currently honing skills at <strong>Thinkful</strong> to create <strong>accessible</  strong> and attractive <strong>applications</strong> that captivate.
+            <p>Creating <strong>accessible</  strong> and attractive <strong>applications</strong> that captivate.
         </p>
         </section>
     <div class='projects-div'>
