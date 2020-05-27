@@ -11,7 +11,7 @@ const handleAboutMeClick = function() {
                 <h3>Technical Skills</h3>
                 <ul class='technical-skills-ul'>
                     <li>Frontend: <p><i class="fab fa-html5 tech-icons"></i><i class="fab fa-js tech-icons"></i><i class="fab fa-css3-alt tech-icons"></i><img class='jQuery' alt='jQuery icon' src="img/jQuery.png"><i class="fab fa-sass tech-icons" title='Sass (SCSS)'></i><img class="icons" title='Cypress' src="img/cypress.svg"/></p></li>
-                    <li>Backend: <p><i class="fab fa-node-js tech-icons" title='Node.js'></i><img class="icons" title='Knex.js' src="/img/knex.svg"/><img class="icons" title='Postgres' src="https://img.icons8.com/color/24/000000/postgreesql.png"/><img class="icons" title='Mocha' src="/img/mocha.svg"/><img class="icons" title='Chai' src="/img/chai.svg"/></p></li>
+                    <li>Backend: <p><i class="fab fa-node-js tech-icons" title='Node.js'></i><img class="icons" title='Knex.js' src="img/knex.svg"/><img class="icons" title='Postgres' src="https://img.icons8.com/color/24/000000/postgreesql.png"/><img class="icons" title='Mocha' src="img/mocha.svg"/><img class="icons" title='Chai' src="img/chai.svg"/></p></li>
                 </ul>
             </section>
                 <p class='first-paragraph-aboutMe'>Which retrospectively is why I was <strong>drawn</strong> to <strong>web development</strong>;</p>
@@ -45,7 +45,7 @@ const handleProjectsClick = function() {
     <h2>Projects</h2>
         <h3>Cup of Sugar</h3>
         <img class="cup-of-sugar" alt='Screen capture of Cup of Sugar application' src='img/Cup-of-Sugar.PNG'/>
-        <p class='tech-used'><i class="fab fa-react tech-icons" title='React.js'></i><i class="fab  fa-js tech-icons" title='Javascript'></i><i class="fab fa-node-js tech-icons" title='Node.js'></i><img class="icons" title='Knex.js' src="/img/knex.svg"/><img class="icons" title='Postgres' src="https://img.icons8.com/color/24/000000/postgreesql.png"/><img class="icons" title='Mocha' src="/img/mocha.svg"/><img class="icons" title='Chai' src="/img/chai.svg"/><i class="fab fa-sass tech-icons cup-sass-icon" title='Sass (SCSS)'></i></p>
+        <p class='tech-used'><i class="fab fa-react tech-icons" title='React.js'></i><i class="fab  fa-js tech-icons" title='Javascript'></i><i class="fab fa-node-js tech-icons" title='Node.js'></i><img class="icons" title='Knex.js' src="img/knex.svg"/><img class="icons" title='Postgres' src="https://img.icons8.com/color/24/000000/postgreesql.png"/><img class="icons" title='Mocha' src="img/mocha.svg"/><img class="icons" title='Chai' src="img/chai.svg"/><i class="fab fa-sass tech-icons cup-sass-icon" title='Sass (SCSS)'></i></p>
         <p>A full stack project completed as part of a team of 3. Cup of Sugar is a localized, community-oriented application that aims to bring neighbors closer together by fostering connections based on mutual aid. Users can post offers and requests to a public bulletin board, where other users can respond by post comments or messaging other users privately.</   p>
         <section class='button-section'>
             <a class='live-app-button' target='blank' href='https://cup-of-sugar.now.sh/'><span class='button-span'>Live App</span></a>
@@ -61,7 +61,7 @@ const handleProjectsClick = function() {
         </section>
     <h3>Snapshot</h3>
         <img class="dorian-site" alt='Snapshot application screen grab' src='img/Snapshot.PNG'/>
-        <p class='tech-used'><i class="fab fa-react tech-icons" title='React.js'></i><i class="fab fa-css3-alt tech-icons" title='CSS3'></i><i class="fab fa-node-js tech-icons" title='Node.js'></i><img class="icons" title='Knex.js' src="/img/knex.svg"/><img class="icons" title='Postgres' src="https://img.icons8.com/color/24/000000/postgreesql.png"/></p>
+        <p class='tech-used'><i class="fab fa-react tech-icons" title='React.js'></i><i class="fab fa-css3-alt tech-icons" title='CSS3'></i><i class="fab fa-node-js tech-icons" title='Node.js'></i><img class="icons" title='Knex.js' src="img/knex.svg"/><img class="icons" title='Postgres' src="https://img.icons8.com/color/24/000000/postgreesql.png"/></p>
         <p>A full stack solo application created in two weeks. Allows users to add players, games, and scores to keep track of physical (e.g. board and card) games.</p>
         <section class='button-section'>
             <a class='live-app-button' target='blank' href='https://snapshot-delta.now.sh/'><span class='button-span'>Live App</span></a>
@@ -69,7 +69,7 @@ const handleProjectsClick = function() {
         </section>
     <h3>Sermo</h3>
         <img class="sermo" alt='Sermo application screen grab' src='img/Sermo.PNG'/>
-        <p class='tech-used'><i class="fab fa-react tech-icons" title='React.js'></i><i class="fab  fa-css3-alt tech-icons" title='CSS3'></i><i class="fab fa-node-js tech-icons" title='Node.js'></i><img class="icons" title='Knex.js' src="/img/knex.svg"/><img class="icons" title='Postgres' src="https://img.icons8.com/color/24/000000/postgreesql.png"/><span class="iconify tech-icons" data-icon="logos:cypress" title='Cypress' data-inline="false"></ span></p>
+        <p class='tech-used'><i class="fab fa-react tech-icons" title='React.js'></i><i class="fab  fa-css3-alt tech-icons" title='CSS3'></i><i class="fab fa-node-js tech-icons" title='Node.js'></i><img class="icons" title='Knex.js' src="img/knex.svg"/><img class="icons" title='Postgres' src="https://img.icons8.com/color/24/000000/postgreesql.png"/><span class="iconify tech-icons" data-icon="logos:cypress" title='Cypress' data-inline="false"></ span></p>
         <p>A full stack application completed with a pair in one week. Utilizes a spaced    repetition algorithm to manipulate a linked list of words to teach the user Mandarin.</p>
         <section class='button-section'>
             <a class='live-app-button' target='blank' href='https://sermo.now.sh/register/'><span class='button-span'>Live App</span></a>
