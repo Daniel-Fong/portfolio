@@ -37,7 +37,7 @@ const handleProjectsClick = function() {
         let projectsView =`
 <section class='intro'>
     <h1>Daniel Fong</h1>
-        <p>A <strong>Denver</strong> based frontend <strong>web developer</strong></p> 
+        <p>A <strong>Denver</strong> based full stack <strong>web developer</strong></p> 
             <p>Creating <strong>accessible</  strong> and attractive <strong>applications</strong> that captivate.
         </p>
         </section>
