@@ -43,46 +43,46 @@ const handleProjectsClick = function() {
         </section>
     <div class='projects-div'>
     <h2>Projects</h2>
+        <h3>DorianKrausz.com</h3>
+            <img class="dorian-site" alt='Screen capture of Dorian Krausz Portfolio' src='img/dorian-site.PNG'/>
+            <p class='tech-used'><i class="fab fa-react tech-icons" title='React.js'></i><i class="fab fa-js tech-icons" title='Javascript'></i><i class="fab fa-css3-alt tech-icons" title='CSS3'></i></p>
+            <p>A frontend portfolio project completed in one week, with minor revisions since then. Showcases an artwork collection and the artist.</p>
+            <section class='button-section'>
+                <a class='live-app-button' target='blank' href='https://doriankrausz.com/'><span    class='button-span'>Live App</span></a>
+                <a class='code-button' target='blank' href='https://github.com/Daniel-Fong/ dorian-website'><span class='button-span'>Code</span></a>
+            </section>
         <h3>Cup of Sugar</h3>
-        <img class="cup-of-sugar" alt='Screen capture of Cup of Sugar application' src='img/Cup-of-Sugar.PNG'/>
-        <p class='tech-used'><i class="fab fa-react tech-icons" title='React.js'></i><i class="fab  fa-js tech-icons" title='Javascript'></i><i class="fab fa-node-js tech-icons" title='Node.js'></i><img class="icons" title='Knex.js' src="img/knex.svg"/><img class="icons" title='Postgres' src="https://img.icons8.com/color/24/000000/postgreesql.png"/><img class="icons" title='Mocha' src="img/mocha.svg"/><img class="icons" title='Chai' src="img/chai.svg"/><i class="fab fa-sass tech-icons cup-sass-icon" title='Sass (SCSS)'></i></p>
-        <p>A full stack project completed as part of a team of 3. Cup of Sugar is a localized, community-oriented application that aims to bring neighbors closer together by fostering connections based on mutual aid. Users can post offers and requests to a public bulletin board, where other users can respond by post comments or messaging other users privately.</   p>
-        <section class='button-section'>
-            <a class='live-app-button' target='blank' href='https://cup-of-sugar.now.sh/'><span class='button-span'>Live App</span></a>
-            <a class='code-button' target='blank' href='https://github.com/thinkful-ei-leopard/ cup-of-sugar-client'><span class='button-span'>Code</span></a>
-        </section>
-    <h3>DorianKrausz.com</h3>
-        <img class="dorian-site" alt='Screen capture of Dorian Krausz Portfolio' src='img/dorian-site.PNG'/>
-        <p class='tech-used'><i class="fab fa-react tech-icons" title='React.js'></i><i class="fab fa-js tech-icons" title='Javascript'></i><i class="fab fa-css3-alt tech-icons" title='CSS3'></i></p>
-        <p>A frontend portfolio project completed in one week, with minor revisions since then. Showcases an artwork collection and the artist.</p>
-        <section class='button-section'>
-            <a class='live-app-button' target='blank' href='https://doriankrausz.com/'><span    class='button-span'>Live App</span></a>
-            <a class='code-button' target='blank' href='https://github.com/Daniel-Fong/ dorian-website'><span class='button-span'>Code</span></a>
-        </section>
-    <h3>Snapshot</h3>
-        <img class="dorian-site" alt='Snapshot application screen grab' src='img/Snapshot.PNG'/>
-        <p class='tech-used'><i class="fab fa-react tech-icons" title='React.js'></i><i class="fab fa-css3-alt tech-icons" title='CSS3'></i><i class="fab fa-node-js tech-icons" title='Node.js'></i><img class="icons" title='Knex.js' src="img/knex.svg"/><img class="icons" title='Postgres' src="https://img.icons8.com/color/24/000000/postgreesql.png"/></p>
-        <p>A full stack solo application created in two weeks. Allows users to add players, games, and scores to keep track of physical (e.g. board and card) games.</p>
-        <section class='button-section'>
-            <a class='live-app-button' target='blank' href='https://snapshot-delta.now.sh/'><span class='button-span'>Live App</span></a>
-            <a class='code-button' target='blank' href='https://github.com/Daniel-Fong/ first-capstone-client'><span class='button-span'>Code</span></a>
-        </section>
-    <h3>Sermo</h3>
-        <img class="sermo" alt='Sermo application screen grab' src='img/Sermo.PNG'/>
-        <p class='tech-used'><i class="fab fa-react tech-icons" title='React.js'></i><i class="fab  fa-css3-alt tech-icons" title='CSS3'></i><i class="fab fa-node-js tech-icons" title='Node.js'></i><img class="icons" title='Knex.js' src="img/knex.svg"/><img class="icons" title='Postgres' src="https://img.icons8.com/color/24/000000/postgreesql.png"/><span class="iconify tech-icons" data-icon="logos:cypress" title='Cypress' data-inline="false"></ span></p>
-        <p>A full stack application completed with a pair in one week. Utilizes a spaced    repetition algorithm to manipulate a linked list of words to teach the user Mandarin.</p>
-        <section class='button-section'>
-            <a class='live-app-button' target='blank' href='https://sermo.now.sh/register/'><span class='button-span'>Live App</span></a>
-            <a class='code-button' target='blank' href='https://github.com/thinkful-ei-leopard/ spaced-repetition-client-daniel-hsin'><span class='button-span'>Code</span></a>
-        </section>
-    <h3>Bookmark Bungalow</h3>
-        <img class="bookmark-app" alt='Bookmark bungalow screen capture' src='img/bookmark-capture.PNG'/>
-        <p class='tech-used'><i class="fab fa-html5 tech-icons"></i><i class="fab fa-js     tech-icons"></i><i class="fab fa-css3-alt tech-icons"></i><img class='jQuery' alt='jQuery icon' src="img/jQuery.png"></p>
-        <p>Bring a slice of the tropics into your life with an app designed to save your favorite websites with a description, rating and link to the site itself. Bookmarks can be filtered by rating.</p>
-        <section class='button-section'>
-            <a class='live-app-button' target='blank' href='https://thinkful-ei-leopard.github.io/  daniel-bookmarks-app'><span class='button-span'>Live App</span></a>
-            <a class='code-button' target='blank' href='https://github.com/thinkful-ei-leopard/ daniel-bookmarks-app'><span class='button-span'>Code</span></a>
-        </section>
+            <img class="cup-of-sugar" alt='Screen capture of Cup of Sugar application' src='img/Cup-of-Sugar.PNG'/>
+            <p class='tech-used'><i class="fab fa-react tech-icons" title='React.js'></i><i class="fab  fa-js tech-icons" title='Javascript'></i><i class="fab fa-node-js tech-icons" title='Node.js'></i><img class="icons" title='Knex.js' src="img/knex.svg"/><img class="icons" title='Postgres' src="https://img.icons8.com/color/24/000000/postgreesql.png"/><img class="icons" title='Mocha' src="img/mocha.svg"/><img class="icons" title='Chai' src="img/chai.svg"/><i class="fab fa-sass tech-icons cup-sass-icon" title='Sass (SCSS)'></i></p>
+            <p>A full stack project completed as part of a team of 3. Cup of Sugar is a localized, community-oriented application that aims to bring neighbors closer together by fostering connections based on mutual aid. Users can post offers and requests to a public bulletin board, where other users can respond by post comments or messaging other users privately.</   p>
+            <section class='button-section'>
+                <a class='live-app-button' target='blank' href='https://cup-of-sugar.now.sh/'><span class='button-span'>Live App</span></a>
+                <a class='code-button' target='blank' href='https://github.com/thinkful-ei-leopard/ cup-of-sugar-client'><span class='button-span'>Code</span></a>
+            </section>
+        <h3>Snapshot</h3>
+            <img class="dorian-site" alt='Snapshot application screen grab' src='img/Snapshot.PNG'/>
+            <p class='tech-used'><i class="fab fa-react tech-icons" title='React.js'></i><i class="fab fa-css3-alt tech-icons" title='CSS3'></i><i class="fab fa-node-js tech-icons" title='Node.js'></i><img class="icons" title='Knex.js' src="img/knex.svg"/><img class="icons" title='Postgres' src="https://img.icons8.com/color/24/000000/postgreesql.png"/></p>
+            <p>A full stack solo application created in two weeks. Allows users to add players, games, and scores to keep track of physical (e.g. board and card) games.</p>
+            <section class='button-section'>
+                <a class='live-app-button' target='blank' href='https://snapshot-delta.now.sh/'><span class='button-span'>Live App</span></a>
+                <a class='code-button' target='blank' href='https://github.com/Daniel-Fong/ first-capstone-client'><span class='button-span'>Code</span></a>
+            </section>
+        <h3>Sermo</h3>
+            <img class="sermo" alt='Sermo application screen grab' src='img/Sermo.PNG'/>
+            <p class='tech-used'><i class="fab fa-react tech-icons" title='React.js'></i><i class="fab  fa-css3-alt tech-icons" title='CSS3'></i><i class="fab fa-node-js tech-icons" title='Node.js'></i><img class="icons" title='Knex.js' src="img/knex.svg"/><img class="icons" title='Postgres' src="https://img.icons8.com/color/24/000000/postgreesql.png"/><span class="iconify tech-icons" data-icon="logos:cypress" title='Cypress' data-inline="false"></ span></p>
+            <p>A full stack application completed with a pair in one week. Utilizes a spaced    repetition algorithm to manipulate a linked list of words to teach the user Mandarin.</p>
+            <section class='button-section'>
+                <a class='live-app-button' target='blank' href='https://sermo.now.sh/register/'><span class='button-span'>Live App</span></a>
+                <a class='code-button' target='blank' href='https://github.com/thinkful-ei-leopard/ spaced-repetition-client-daniel-hsin'><span class='button-span'>Code</span></a>
+            </section>
+        <h3>Bookmark Bungalow</h3>
+            <img class="bookmark-app" alt='Bookmark bungalow screen capture' src='img/bookmark-capture.PNG'/>
+            <p class='tech-used'><i class="fab fa-html5 tech-icons"></i><i class="fab fa-js     tech-icons"></i><i class="fab fa-css3-alt tech-icons"></i><img class='jQuery' alt='jQuery icon' src="img/jQuery.png"></p>
+            <p>Bring a slice of the tropics into your life with an app designed to save your favorite websites with a description, rating and link to the site itself. Bookmarks can be filtered by rating.</p>
+            <section class='button-section'>
+                <a class='live-app-button' target='blank' href='https://thinkful-ei-leopard.github.io/  daniel-bookmarks-app'><span class='button-span'>Live App</span></a>
+                <a class='code-button' target='blank' href='https://github.com/thinkful-ei-leopard/ daniel-bookmarks-app'><span class='button-span'>Code</span></a>
+            </section>
     </div>`
             render(projectsView);
         });
