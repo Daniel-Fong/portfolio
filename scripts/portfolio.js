@@ -10,8 +10,29 @@ const handleAboutMeClick = function() {
             <section class='skills'>
                 <h3>Technical Skills</h3>
                 <ul class='technical-skills-ul'>
-                    <li>Frontend: <p><i class="fab fa-html5 tech-icons"></i><i class="fab fa-js tech-icons"></i><i class="fab fa-css3-alt tech-icons"></i><img class='jQuery' alt='jQuery icon' src="img/jQuery.png"><i class="fab fa-sass tech-icons" title='Sass (SCSS)'></i><img class="icons" title='Cypress' src="img/cypress.svg"/></p></li>
-                    <li>Backend: <p><i class="fab fa-node-js tech-icons" title='Node.js'></i><img class="icons" title='Knex.js' src="img/knex.svg"/><img class="icons" title='Postgres' src="https://img.icons8.com/color/24/000000/postgreesql.png"/><img class="icons" title='Mocha' src="img/mocha.svg"/><img class="icons" title='Chai' src="img/chai.svg"/></p></li>
+                    <li>Frontend: 
+                        <p>
+                            <i class="fab fa-html5 tech-icons" title='HTML5'></i>
+                            <i class="fab fa-js tech-icons" title='Javascript'></i>
+                            <i class="fab fa-css3-alt tech-icons" title='CSS3'></i>
+                            <img class='jQuery' alt='jQuery icon' title='jQuery' src="img/jQuery.png">
+                            <i class="fab fa-sass tech-icons" title='Sass (SCSS)'>
+                            </i><img class="icons" title='Cypress' src="img/cypress.svg"/>
+                        </p>
+                    </li>
+                    <li>Backend: 
+                        <p>
+                            <img class="icons" title='Java' src="img/Java.svg"/>
+                            <img class="icons" title='spring' src="img/Spring.png"/>
+                            <img class="icons" title='Laravel' src="img/Laravel.png"/>
+                            <img class="icons" title='Knex.js' src="img/knex.svg"/>
+                            <i class="fab fa-node-js tech-icons" title='Node.js'></i>
+                            <img class="icons" title='Knex.js' src="img/knex.svg"/>
+                            <img class="icons" title='Postgres' src="https://img.icons8.com/color/24/000000/postgreesql.png"/>
+                            <img class="icons" title='Mocha' src="img/mocha.svg"/>
+                            <img class="icons" title='Chai' src="img/chai.svg"/>
+                        </p>
+                    </li>
                 </ul>
             </section>
                 <p class='first-paragraph-aboutMe'>Which retrospectively is why I was <strong>drawn</strong> to <strong>web development</strong>;</p>
