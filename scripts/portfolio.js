@@ -25,7 +25,6 @@ const handleAboutMeClick = function() {
                             <img class="icons" title='Java' src="img/Java.svg"/>
                             <img class="icons" title='spring' src="img/Spring.png"/>
                             <img class="icons" title='Laravel' src="img/Laravel.png"/>
-                            <img class="icons" title='Knex.js' src="img/knex.svg"/>
                             <i class="fab fa-node-js tech-icons" title='Node.js'></i>
                             <img class="icons" title='Knex.js' src="img/knex.svg"/>
                             <img class="icons" title='Postgres' src="https://img.icons8.com/color/24/000000/postgreesql.png"/>
